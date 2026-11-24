@@ -1,36 +1,33 @@
-# SignalWild — Intelligence Beyond Language
+# SignalWild
 
-Research-stage investor website for a personalised, evidence-led approach to interspecies communication.
+**Intelligence Beyond Language**
 
-## Repository contents
+SignalWild is developing a personalised, multimodal communication layer between humans and animals. The approach combines complementary sensing devices, individual learning, observable outcomes and a feedback loop based on natural animal behaviour.
 
-- `index.html` — responsive investor website, including three interactive Animal Communication Passport concept examples
-- `SignalWild_Investor_Deck.pdf` — polished **10-slide investor deck** (PDF)
-- `SignalWild_Investor_Deck.pptx` — editable 10-slide presentation
-- `deck.html` — alternative browser-readable, print-friendly HTML deck
-- `assets/signalwild-vision.webp` — high-resolution branded hero image
-- `assets/signalwild-vision-small.webp` — smaller optimised hero asset
-- `assets/signalwild-vision.svg` — fallback concept illustration
-- `.nojekyll` — serve GitHub Pages as a static site
+## The product system
 
-The website and deck describe the proposed **Understand → Verify → Respond** hypothesis. The animal communication examples and hardware concept are illustrative, not demonstrated translation or shipping devices.
+- **SignalWild Sight**: Smart-glasses interface with camera, microphone and private spoken responses.
+- **SignalWild Sense**: Lightweight collar architecture with audio and motion sensing, plus optional validated physiological measures.
+- **SignalWild Home**: Room-level camera and microphone observations, including when an owner is away.
+- **Individual AI model**: Audio, pose, temporal context, species priors and outcome-linked animal history.
+- **Communication Passport**: A first application sharing useful, permissioned individual insights with caregivers.
 
-## Publish the website with GitHub Pages
+## Website and investor deck
 
-1. Go to **Settings → Pages** in this repository.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select **main** and **/(root)** and click **Save**.
-4. Wait for GitHub to confirm the deployment and open its displayed URL. The expected address is https://priyankbakshi.github.io/signalwild/ .
-5. Verify the hero, interactive Passport, navigation and **Investor deck** PDF link on the published site.
+- `index.html`: Responsive investor site with an uncropped mobile hero.
+- `deck.html`: Updated 10-slide browser investor presentation, including hardware and AI architecture.
+- `SignalWild_Investor_Deck.pdf` and `SignalWild_Investor_Deck.pptx`: Downloadable investor files.
+- `assets/signalwild-vision.webp`, `assets/signalwild-vision-small.webp`: Hero artwork.
+- `.nojekyll`: GitHub Pages compatibility.
 
-No build step is required. Everything is served as static HTML and assets.
+## Publishing
 
-## Investor presentation
+GitHub Pages: **Settings → Pages → Deploy from a branch → main → /(root)**.
 
-- [Investor deck — PDF](SignalWild_Investor_Deck.pdf)
-- [Investor deck — editable PowerPoint](SignalWild_Investor_Deck.pptx)
-- [Investor deck — HTML](deck.html)
+Expected URL: https://priyankbakshi.github.io/signalwild/
 
-## Research integrity
+## Asset refresh
 
-SignalWild is at the concept/early tooling stage. The company has not scientifically validated animal-language translation, clinical diagnosis, behavioural-intent inference or two-way comprehension. Further work requires specialist partners, independent performance evaluation, animal-welfare review and privacy safeguards.
+The website HTML and `deck.html` were updated on 24 November 2026. The matching updated binary hero images and PDF/PPTX deck are packaged in **SignalWild_Investor_Website_v4.zip**, and can replace the same-named assets in the repository. Until those binary files are replaced, the website will show the earlier hero image and the PDF download will be the earlier deck version; the HTML deck is already current.
+
+The hardware scenes and sample Communication Passport illustrate product direction. The initial scientific programme measures whether individualised multimodal models improve interpretations and caregiver decisions.
