@@ -1,29 +1,30 @@
-# SignalWild — Frontier Research Venture (Investor Site)
+# SignalWild — Intelligence Beyond Language
 
-A static, responsive investor website for SignalWild. Includes a ten-slide deck (PDF), branded concept visual, and a clickable demonstration of a proposed individual-animal Communication Passport.
+Research-stage investor website for a personalised approach to interspecies communication.
 
-## Current stage
+## What's in this repository
 
-This is **research-stage investor communication**, not an operational animal translator. All passport scenarios and hardware are labelled as illustrative. No deployed proprietary hardware, translation accuracy, animal trials, customers, or revenues are claimed.
+- `index.html` — responsive investor website with interactive Animal Communication Passport examples
+- `deck.html` — a browser-readable, printable 10-slide investor presentation
+- `assets/signalwild-vision.svg` — branded illustration fallback so the hero does not appear blank
+- `.nojekyll` — allows serving the site directly from GitHub Pages
 
-## Publish via GitHub Pages
+The website focuses on the research hypothesis **Understand → Verify → Respond**, rather than claiming animal language translation has been achieved.
 
-1. Sign into GitHub and create a new **public** repository, suggested name `signalwild` (do not initialise it with an additional README if uploading via Git).
-2. Upload **the contents of this directory** to the repository root (`index.html`, `README.md`, `SignalWild_Investor_Deck.pdf`, `.nojekyll`, `assets/`).
-3. Open repository **Settings → Pages → Build and deployment → Deploy from a branch**. Choose `main` and `/(root)`; save.
-4. GitHub will show the actual published site URL in Pages settings. For an account `priyankbakshi` and repo `signalwild`, the usual URL pattern would be `https://priyankbakshi.github.io/signalwild/`, but do not treat it as live until GitHub confirms deployment.
-5. Test all nav links, the interactive passport tabs and the PDF link in the hosted site.
+## Publish with GitHub Pages
 
-No external Javascript library, build step or server is required. All site links to assets are relative so they work under a GitHub Pages project path.
+1. Open **Settings → Pages** for this repository.
+2. Under **Build and deployment**, select **Deploy from a branch**.
+3. Select branch **main**, folder **/(root)**, and save.
+4. When GitHub reports deployment, verify the address it provides. Normally it is `https://priyankbakshi.github.io/signalwild/`.
+5. Test the navigation, interactive Passport, hero and investor deck page.
 
-## Local preview
+## Original investor files
 
-Open `index.html` in Chrome/Edge. For a local HTTP server, run `python3 -m http.server 8000` from this folder and visit http://localhost:8000.
+The original high-resolution hero image and polished PDF/PPTX deck exist in the separate **SignalWild_Investor_Website_v3.zip** package supplied in the ChatGPT conversation. They are not yet committed here because the connected GitHub uploader did not support direct binary-file transfer.
 
-## Editing
+This repository is functional as a static website with its SVG fallback and printable HTML deck. To restore the exact high-resolution hero, upload `assets/signalwild-vision.webp` from the ZIP. The CSS automatically prefers it when present. To make the original PDF available at a permanent URL, upload `SignalWild_Investor_Deck.pdf` to the repository root and link to it from the site.
 
-The website is a single `index.html` plus the hero visual. All textual content and styles are editable directly. The pitch deck PDF is mirrored in the site root; the editable PPTX is delivered separately.
+## Integrity of claims
 
-## Evidence and claims
-
-SignalWild aims to test whether a personalised model can help unfamiliar people interpret individual animal behaviour better than care notes, simple context models and species-wide AI. This is a hypothesis, not an achieved result. Real deployment will require appropriate consent, privacy and animal-welfare review.
+SignalWild is a research-stage proposal. The Communication Passport, interface devices, predictive accuracy and two-way understanding are concepts, not independently validated capabilities. Any future commercial product requires animal-welfare, privacy and performance evaluation.
