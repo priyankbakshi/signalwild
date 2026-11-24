@@ -2,32 +2,29 @@
 
 **Intelligence Beyond Language**
 
-SignalWild is developing a personalised, multimodal communication layer between humans and animals. The approach combines complementary sensing devices, individual learning, observable outcomes and a feedback loop based on natural animal behaviour.
+A research-stage interspecies communication venture focused on individual animals. SignalWild combines camera and audio observations, smart glasses, collar sensing and multimodal AI.
 
-## The product system
+## Published assets
 
-- **SignalWild Sight**: Smart-glasses interface with camera, microphone and private spoken responses.
-- **SignalWild Sense**: Lightweight collar architecture with audio and motion sensing, plus optional validated physiological measures.
-- **SignalWild Home**: Room-level camera and microphone observations, including when an owner is away.
-- **Individual AI model**: Audio, pose, temporal context, species priors and outcome-linked animal history.
-- **Communication Passport**: A first application sharing useful, permissioned individual insights with caregivers.
+- `index.html`: responsive investor website, including an uncropped mobile hero
+- `assets/signalwild-vision.webp`: approved woman-and-dog hero, optimised for web
+- `assets/signalwild-vision-small.webp`: optimised mobile image
+- `assets/signalwild-logo.svg`: consistent lime waveform / lowercase brand
+- `SignalWild_Investor_Deck.pdf`: downloadable investor deck with the same hero
+- `SignalWild_Investor_Deck.pptx`: editable 10-slide PowerPoint
+- `build_investor_deck.py`: reproducible deck generator
+- `.github/workflows/build-deck.yml`: automatic PDF/PPTX generation
 
-## Website and investor deck
+## Product direction
 
-- `index.html`: Responsive investor site with an uncropped mobile hero.
-- `deck.html`: Updated 10-slide browser investor presentation, including hardware and AI architecture.
-- `SignalWild_Investor_Deck.pdf` and `SignalWild_Investor_Deck.pptx`: Downloadable investor files.
-- `assets/signalwild-vision.webp`, `assets/signalwild-vision-small.webp`: Hero artwork.
-- `.nojekyll`: GitHub Pages compatibility.
+- **Sight**: glasses with owner-view camera, microphone and spoken feedback.
+- **Sense**: dog collar with audio and motion sensing plus future validated physiological signals.
+- **Home**: room camera and microphone for posture, activity and interactions.
+- **Personalised AI**: correlate audio, posture, movement and context with observed outcomes.
+- **Communication Passport**: permissioned knowledge-sharing with authorised caregivers.
 
-## Publishing
+## GitHub Pages
 
-GitHub Pages: **Settings → Pages → Deploy from a branch → main → /(root)**.
+The project website is at https://priyankbakshi.github.io/signalwild/ once GitHub Pages deployment has completed. It is served from the `main` branch at the repository root.
 
-Expected URL: https://priyankbakshi.github.io/signalwild/
-
-## Asset refresh
-
-The website HTML and `deck.html` were updated on 24 November 2026. The matching updated binary hero images and PDF/PPTX deck are packaged in **SignalWild_Investor_Website_v4.zip**, and can replace the same-named assets in the repository. Until those binary files are replaced, the website will show the earlier hero image and the PDF download will be the earlier deck version; the HTML deck is already current.
-
-The hardware scenes and sample Communication Passport illustrate product direction. The initial scientific programme measures whether individualised multimodal models improve interpretations and caregiver decisions.
+The photograph and AI-reading overlay illustrate the product vision; this is not a claim that an animal-language translator has already been validated.
